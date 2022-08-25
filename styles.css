@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+:root{
+--primary-color: rgb(9, 218, 255);
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    padding-left: 2rem ;
+    padding-right: 2rem;
+}
+.fluid-container{
+    max-width: 550px;
+    margin: auto;
+}
+.link {
+
+
+}
+.first-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+}
+.second-link{
+    background-color: maroon;
+    border-radius: 00.5rem;
+    color: rgb(255, 248, 248);
+}
+.link{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
