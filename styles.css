@@ -4,18 +4,18 @@
 }
 body{
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 .container{
     padding-left: 2rem ;
     padding-right: 2rem;
 }
 .fluid-container{
-    max-width: 550px;
+    max-width: 600px;
     margin: auto;
 }
-.link {
-
-
+hr{
+    margin: 1rem 0rem;
 }
 .first-link {
     background-color: var(--primary-color);
@@ -23,11 +23,71 @@ body{
     color: black;
 }
 .second-link{
-    background-color: maroon;
-    border-radius: 00.5rem;
-    color: rgb(255, 248, 248);
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color:black;
 }
 .link{
     padding-left: 2rem;
     padding-right: 2rem;
+} 
+.list-non-bullet{
+list-style: none;
+}
+.list-in-line{
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+.nav-container{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.nav-container .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nav-container .link{
+    color: blue
+}
+.nav-container .list-non-bullet{
+    text-align: right;
+}
+.html{
+    padding: 2rem;
+}
+.html-img{
+  max-width: 350px;
+  display: block;
+  margin:auto;
+}
+.heading{
+    color: dimgray;
+    padding-top: 1rem;
+}
+.develope{
+    color: var(--primary-color);
+}
+.section{
+    padding: 2rem;
+}
+.section h3,h4{
+    text-align: center;
+}
+.ow{
+    background-color: papayawhip;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding: 0px;
 }

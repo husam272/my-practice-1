@@ -29,15 +29,24 @@
     <a class="first-link"href="https://www.youtube.com/c/TanayPratap">channel link</a> 
     <h2></h2>
     <a class="second-link" href="https://www.youtube.com/watch?v=No8qdcVYiQw&list=PLzvhQUIpvvuj5KPnyPyWsvgyzNkX_ACPA&index=4">video link</a>
-    <div>
+    </div>
     <hr>
     <h3>list to do html coding (unorderlist)</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>open github</li>
         <li>create a repository</li>
         <li>open vs code</li>
         <li>enter index.html</li>
     </ul>
+    <h3>
+        <P>in line list</P>
+        <ul class="list-in-line">
+            <li class="list-in-line">open github</li>
+            <li class="list-in-line">create a repository</li>
+            <li class="list-in-line">open vs code</li>
+            <li class="list-in-line" >enter index.html</li>
+        </ul>
+    </h3>
     <h3>list to do html coding (ordered list)</h3>
     <ol>
         <li>open github</li>
@@ -47,48 +56,65 @@
     </ol>
     <hr>
     <h1>navigations</h1>
-    <nav>
-        <div>about html</div>
-        <ul>
-            <li>
-                <a href="/" >about us</a>
+    <nav class="nav-container">
+        <div class="nav-brand">about html</div>
+        <ul class="list-non-bullet">
+            <strong>
+            <li class="list-in-line">
+                <a class="link" href="/" >about us</a>
             </li>
-            <li>
-                <a href="/" >profile</a>
+            <li class="list-in-line">
+                <a class="link" href="/" >profile</a>
             </li>
-            <li>
-                <a href="/" >projects</a>
+            <li class="list-in-line">
+                <a class="link" href="/" >projects</a>
             </li>
+        </strong>
         </ul>
     </nav>
     <hr>
-    <h2>header</h2>
-    <header>
-        <img src="images/undraw_learning_re_32qv.svg" alt="">
-        <h1>getiing knowledge is everything</h1>
+    <h2 class="html">header</h2>
+    <header class="html-img">
+        <img src="/images/undraw_learning_re_32qv.svg" alt="">
+        <h1 class="heading">welcome to the <span class="develope">web develope</span> website </h1>
     </header>
     <div style="height: 10vh;"></div>
     <hr>
     <h2>@section for learning html</h2>
-    <section>
+    <section class="section">
         <h3>we should first learn about html</h3>
-    </section>
-    <section>
-        <h3>next step</h3>
-        <p>learning basic</p>
+        <div class="fluid-container">
+        <p>Become a modern and confident HTML and CSS developer, no prior knowledge needed!
+            Design and build a stunning real-world project for your portfolio from scratch
+            Modern, semantic and accessible HTML5
+            Modern CSS (previous CSS3), including flexbox and CSS Grid for layout</p>
+    </div>
+       </section>
+       <section class="ow">
+        <h4>what is html</h4>
+        <div class="fluid-container">
+        <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript)</p>
+    </div>
     </section>
 <hr>
-    <footer>
-        <div>html</div>
-            <ol>
-                <li>neogcamp videos</li>
-                <li>vs code</li>
-                <li>git hub</li>
+<h2>footer</h2>
+    <footer class="footer">
+        <div class="footer-header">contact details</div>
+            <ul class="list-in-line">
+                <li class="list-in-line"> 
+                    <a class="link" href="/">social one</a>
+                </li>
+                <li class="list-in-line" >
+                <a class="link" href="/">social two</a>
+                </li>
+                <li class="list-in-line" >
+                     <a class="link" href="/">social three</a>
+                </li>
 
-            </ol>
+            </ul>
         
     </footer>
-    <h1>thank you</h1>
+    
 
 
 </body>
