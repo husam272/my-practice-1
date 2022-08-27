@@ -81,13 +81,17 @@ list-style: none;
 }
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
     text-align: center;
     color: white;
 }
 .footer .link{
     color: white;
 }
-.footer ul{
+.footer .footer-header{
+font-weight: bold;
+font-size: large;
+}
+.footer .list-in-line{
     padding: 0px;
 }
